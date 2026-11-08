@@ -1,7 +1,5 @@
 import torch
 import numpy as np
-import imp
-import os
 
 def Crop_and_resize(img, ):
 

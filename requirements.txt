@@ -1,0 +1,19 @@
+# pip alternative to environment.yml (Python 3.8-3.10; torch 1.13 has no wheels for newer Python)
+--extra-index-url https://download.pytorch.org/whl/cu117
+setuptools==69.5.1   # provides pkg_resources (used by stylegan3); not preinstalled in uv venvs
+numpy==1.23.5
+ninja==1.11.1
+click==8.1.3
+pillow==9.2.0
+scipy==1.10.1
+requests==2.26.0
+tqdm==4.62.2
+matplotlib==3.5.3
+opencv-python-headless==4.6.0.66
+filelock==3.10.7
+huggingface-hub==0.13.3
+timm==0.6.13
+torch==1.13.0+cu117
+torchvision==0.14.0+cu117
+scikit-learn
+pyarrow==12.0.1       # only for download_benchmarks.py
